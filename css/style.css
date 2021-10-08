@@ -1,0 +1,228 @@
+body {
+  overflow-x: hidden;
+}
+header {
+  width: 100vw;
+  height: 75px;
+  background-color: #fff;
+  padding: 0 15px 0 0;
+  border-bottom: 1px solid #f9f2e8;
+}
+.logo {
+  float: left;
+  width: 20%;
+  line-height: 75px;
+  color: #d1d3da;
+  font-size: 27px;
+  font-weight: bold;
+  font-family: system-ui;
+  text-indent: 35px;
+}
+.nav2 {
+  height: 100%;
+  width: 80%;
+  line-height: 75px;
+  float: left;
+}
+.nav2 ul li {
+  display: inline-block;
+  color: #475068;
+  display: inline-block;
+  color: #3a445d;
+  padding: 0px 30px;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+ul {
+  display: inline-block;
+}
+button {
+}
+.buttons {
+  display: inline-block;
+  float: right;
+}
+.buttons button:first-of-type {
+  background-color: #f6f0e8;
+  color: #000;
+  text-transform: capitalize;
+  padding: 10px 15px;
+  margin-right: 10px;
+}
+.buttons button:last-of-type {
+  background-color: #14203e;
+  color: #fff;
+  text-transform: capitalize;
+  padding: 10px 25px;
+}
+.bars {
+  float: right;
+  display: none;
+}
+section.header {
+  background-color: #ffffff;
+  padding: 67px 25px;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 2px solid #f9f2e8;
+}
+.con {
+  max-width: 1170px;
+  width: 90vw;
+  margin: 0 auto;
+}
+.header h2 {
+  color: #14203e;
+  width: 51%;
+  margin: 25px auto;
+  font-size: 64px;
+  font-weight: bold;
+}
+.header p {
+  color: #14203e;
+  width: 52%;
+  font-weight: bold;
+  margin: 21px auto;
+}
+.header .btn {
+  background-color: #14203e;
+  color: #fff;
+  padding: 13px 36px;
+  text-transform: capitalize;
+}
+.spans span {
+  display: inline-block;
+}
+.spans span:first-of-type,
+.spans span:nth-of-type(3) {
+  width: 124px;
+  height: 1px;
+  background-color: #ddd;
+}
+.spans span:nth-of-type(2) {
+  position: relative;
+  top: 3px;
+  font-weight: bold;
+  color: #14203e;
+}
+.spans {
+  margin-bottom: 30px;
+}
+.cars {
+  overflow: hidden;
+}
+.card {
+  position: relative;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 0;
+  border-radius: 0.25rem;
+  margin-bottom: 20px;
+}
+.card p {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.card span {
+  display: inline-block;
+  text-align: left;
+  color: #857f7f;
+}
+.card img {
+  width: 230px;
+  height: 230px;
+  display: inline-block;
+  margin: auto;
+}
+@media (max-width: 576px) {
+  .spans span:first-of-type,
+  .spans span:nth-of-type(3) {
+    width: 30px;
+    height: 1px;
+    background-color: #ddd;
+  }
+  .spans span:nth-of-type(2) {
+    position: relative;
+    top: 3px;
+    font-weight: bold;
+    color: #14203e;
+  }
+}
+@media (max-width: 768px) {
+  .header h2 {
+    font-size: 40px;
+  }
+  .header p {
+    width: 75%;
+  }
+  .spans span:first-of-type,
+  .spans span:nth-of-type(3) {
+    width: 50px;
+    height: 1px;
+    background-color: #ddd;
+  }
+  .spans span:nth-of-type(2) {
+    position: relative;
+    top: 3px;
+    font-weight: bold;
+    color: #14203e;
+  }
+}
+@media (max-width: 992px) {
+  .card span {
+    display: inline-block;
+    text-align: center;
+    color: #857f7f;
+  }
+  .nav2 {
+    display: block;
+    float: none;
+    line-height: 0px;
+    position: absolute;
+    top: 750x;
+    background-color: #fff;
+    top: 75px;
+    left: -1000px;
+    width: 100%;
+    height: calc(100% - 75px);
+    z-index: 99999;
+  }
+  .nav2 ul {
+    display: block;
+  }
+  .buttons {
+    width: 100%;
+    display: block;
+  }
+  .nav2 ul li {
+    display: block;
+    padding: 31px 30px;
+    cursor: pointer;
+    text-align: center;
+    text-transform: capitalize;
+  }
+  .buttons button {
+    display: block;
+    display: block;
+    width: 80vw;
+    margin-right: auto !important;
+    margin: 20px auto 20px;
+  }
+  .bars {
+    display: block;
+    height: 100%;
+    line-height: 75px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 30px;
+  }
+}
+@media (max-width: 1200px) {
+}
